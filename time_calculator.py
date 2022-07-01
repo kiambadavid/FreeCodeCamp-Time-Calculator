@@ -49,7 +49,7 @@ def add_time(start_time, duration, day=None):
     else:
         ampm = "AM"
 
-        # print statement
+        # output statement
     if day is None:
         time = str(hours) + ":" + str(minutes) + " " + ampm + days_later_str
     else:
